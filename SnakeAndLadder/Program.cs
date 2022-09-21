@@ -10,8 +10,14 @@ namespace SnakeAndLadder
     {
         static void Main(string[] args)
         {
-            //UC-1 Snake and Ladder game played with single player at start position 0
-            int StartPosition = 0;
+            //UC-2 Player Rolls a die to get number between 1 to 6
+
+            int Start_Position = 0; 
+            int ran = 0;
+            Random random = new Random(); //Random function can generate random number
+            ran = random.Next(1, 7);//Considering range from 1 to 6 i.e below 7
+            Console.WriteLine("Rolled Dice");
+            Console.WriteLine("Number got: "+ ran);
             Console.ReadLine();
         }
     }
