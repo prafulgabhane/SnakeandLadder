@@ -12,7 +12,8 @@ namespace SnakeAndLadderProblem
         static void Main(string[] args)
         {
             // UC-5
-            // Ensure that player gets to exact winning position 100
+            // Number of times the dice was played to win the game and also the position after every dice role
+
 
             int Start_Position = 0, r = 0, choice = 0, count = 0;
             const int NOPLAY = 0;
@@ -53,6 +54,8 @@ namespace SnakeAndLadderProblem
                 count++;
             }
             Console.ReadLine();
+            Console.WriteLine("Number of times the dice was played: {0}", count); // in this, added for showing count
+
         }
     }
 }
