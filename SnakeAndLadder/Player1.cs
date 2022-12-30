@@ -15,7 +15,7 @@ namespace SnakeAndLadder
             const int NOPLAY = 1;
             const int LADDER = 2;
             const int SNAKE = 3;
-            Random random = new Random();//Random function to generate random number
+            Random random = new Random();//Random function to generate random number 
             while (Start_Position < 100)
             {
                 r = random.Next(1, 7);//Giving range from 1 to 6
